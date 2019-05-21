@@ -52,7 +52,7 @@
  	background-color: white;
   	border: none;
   	color: BurlyWood;
-  	padding: 15px 32px;
+  	padding: 15px 25px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
@@ -87,12 +87,14 @@
 	.button4:hover {
 	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	}
- 
+
+	.button5:hover {
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
 	.grid-container {
 	display: grid;
   	grid: 1/4;
-  	grid-gap: 10px;
-  	padding: 10px;
+  	grid-gap: 1px;
 	}
 	.grid-container > div {
 	display: flex;
@@ -147,9 +149,10 @@
   color: white;
 }
 
-	p1 {
-	height: 100px;
-	weight: 100px;
+	div.s1 {
+ 	width: 700px;
+	height: 400px;
+  	overflow: scroll;
 	}
 
 </style>
@@ -172,16 +175,18 @@ suh - ree - nuh."</h1>
 
 <div class="row">
   <div class="column">
-    <h2>Her Current Thoughts..</h2>
-    <p1><a class="twitter-timeline" href="https://twitter.com/hiyaserena/likes?ref_src=twsrc%5Etfw">Tweets Liked by @hiyaserena</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p1>
+    <h2>What I'm Currently Thinking About..</h2>
+<div class="s1"><a class="twitter-timeline" href="https://twitter.com/hiyaserena/likes?ref_src=twsrc%5Etfw">Tweets Liked by @hiyaserena</a> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
   </div>
 
 <div>
 <div class="grid-container">
-  <div class="item1"><button class="button button1">Button1</button></div>
-  <div class="item2"><button class="button button1">Button2</button></div>
-  <div class="item3"><button class="button button1">Button3</button></div>  
-  <div class="item4"><button class="button button1">Button4</button></div>
+  <div class="item1"><button class="button button1">About</button></div>
+  <div class="item2"><button class="button button2">Résumé</button></div>
+  <div class="item3"><button class="button button3">Currently</button></div>  
+  <div class="item4"><button class="button button4">Thoughts</button></div>
+  <div class="item4"><button class="button button5">Contact Me</button></div>
 </div>
 </div>
 </div>
