@@ -5,23 +5,23 @@
 
 
 <head>
-
-
+<
 <style>
+
 
     
 
 	h1 {
  
-	color: BurlyWood;
-
-        font-family: "Lucida Sans Typewriter";
-
-        font-size: 50px; 
-    	   
-
+	color: Black;
 	text-align: center;
+	/*background-color: #da1a31;
+	opacity: 0.7;	*/
+	font-family: "Courier New";
 
+        font-size: 50px;    	   
+
+	/*border-radius: 5px;*/
     
 	}
 
@@ -29,27 +29,103 @@
 
 	
 
-	p {
-     
+	h2 {
 	
-	color: BurlyWood;
-	
+	color: Black;
+
+	/*border-radius: 5px;
+	border-color: BurlyWood;
+	border-style: solid;*/
+	/*background-color: #da1a31;
+	opacity: 0.7;*/	
 	text-align: center;
 
  
-      	font-family: "Lucida Sans Typewriter";
+      	font-family: "Courier New";
 	
-	font-size: 30px;
+	font-size: 20px;
  
   
 	}
     
-	body { 
-   
+    
+
 	
-	background-image: url("close-up-concrete-flora-137033.jpg");
+
+	body { 
+ 
+	background-color: white;  
+	
+	/*background-image: url("close-up-concrete-flora-137033.jpg");
   	background-repeat: repeat;  
-	background-size: cover; 	
+	background-size: cover;*/	
+	}
+ 
+  
+
+	.button {
+	float: left;
+ 	background-color: white;
+  	border: none;
+  	color: BurlyWood;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	opacity: 0.7;
+	font-family: "Courier New";
+
+	font-size: 25px;
+	font-style: bold;	
+  	border-radius: 70%;
+  	cursor: pointer;
+  	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+	}
+
+	.column {
+	float: right;
+  	width: 50%;
+	}
+
+	.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+	}
+
+	.button1:hover {
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	} 
+
+	
+	.button2:hover {
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	} 
+
+	.button3:hover {
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	} 
+
+	.button4:hover {
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+ 
+  
+
+	.grid-container {
+	display: grid;
+  	grid: 1/4;
+  	grid-gap: 10px;
+  	padding: 10px;
+	}
+
+	.grid-container > div {
+	display: flex;
+  	justify-content: center;
+  	text-align: center;
+  	padding: 20px 0;
+  	font-size: 30px;
 	}
 
 </style>
@@ -63,16 +139,30 @@
 
 
 
-<h1> " It's pronounced suh - ree - nuh. " </h1>
+<h1>"It's pronounced 
+suh - ree - nuh."</h1>
  
  
 	
-<p> My name is Serena and this is my blog. </p>
-	
-<p> I'm 20, studying computer science, and overall trying to find my spot in the world. </p>
+<h2>I'm 20, studying computer science, and overall trying to find my spot in the world.</h2>
 
+<div class="row">
+  <div class="column">
+    <h2>Her Current Thoughts..</h2>
+    <p>We are gonna put a scroll bar here!</p>
+  </div>
 
+<div>
+<div class="grid-container">
+  <div class="item1"><button class="button button1">Button1</button></div>
+  <div class="item2"><button class="button button1">Button2</button></div>
+  <div class="item3"><button class="button button1">Button3</button></div>  
+  <div class="item4"><button class="button button1">Button4</button></div>
+</div>
 
+</div>
+
+</div>
 
 
 </body>
