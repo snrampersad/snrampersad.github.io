@@ -1,16 +1,10 @@
 <!DOCTYPE html>
-
-
 <html>
-
-
 <head>
-<
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-
-
     
-
 	h1 {
  
 	color: Black;
@@ -18,28 +12,21 @@
 	/*background-color: #da1a31;
 	opacity: 0.7;	*/
 	font-family: "Courier New";
-
         font-size: 50px;    	   
-
 	/*border-radius: 5px;*/
     
 	}
-
     
-
 	
-
 	h2 {
 	
 	color: Black;
-
 	/*border-radius: 5px;
 	border-color: BurlyWood;
 	border-style: solid;*/
 	/*background-color: #da1a31;
 	opacity: 0.7;*/	
 	text-align: center;
-
  
       	font-family: "Courier New";
 	
@@ -49,9 +36,7 @@
 	}
     
     
-
 	
-
 	body { 
  
 	background-color: white;  
@@ -62,7 +47,6 @@
 	}
  
   
-
 	.button {
 	float: left;
  	background-color: white;
@@ -74,7 +58,6 @@
   	display: inline-block;
 	opacity: 0.7;
 	font-family: "Courier New";
-
 	font-size: 25px;
 	font-style: bold;	
   	border-radius: 70%;
@@ -82,44 +65,35 @@
   	-webkit-transition-duration: 0.4s; /* Safari */
   	transition-duration: 0.4s;
 	}
-
 	.column {
 	float: right;
   	width: 50%;
 	}
-
 	.row:after {
   	content: "";
   	display: table;
   	clear: both;
 	}
-
 	.button1:hover {
 	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	} 
-
 	
 	.button2:hover {
 	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	} 
-
 	.button3:hover {
 	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	} 
-
 	.button4:hover {
 	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	}
  
-  
-
 	.grid-container {
 	display: grid;
   	grid: 1/4;
   	grid-gap: 10px;
   	padding: 10px;
 	}
-
 	.grid-container > div {
 	display: flex;
   	justify-content: center;
@@ -127,6 +101,52 @@
   	padding: 20px 0;
   	font-size: 30px;
 	}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+font-family: "Courier New";
+   text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 
 </style>
 
@@ -159,11 +179,12 @@ suh - ree - nuh."</h1>
   <div class="item3"><button class="button button1">Button3</button></div>  
   <div class="item4"><button class="button button1">Button4</button></div>
 </div>
-
+</div>
 </div>
 
+<div class="footer">
+  <p><a href="www.cnn.com" class="fa fa-linkedin"></a> <a href="#" class="fa fa-instagram"></a> Find Me <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a></p>
 </div>
-
 
 </body>
 
