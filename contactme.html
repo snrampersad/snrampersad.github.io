@@ -187,111 +187,21 @@
   <div class="column">
     <h3 id = "head">Contact Me!</h3>
 <div class = "s1" id = "content">
-	
-	<div class="modal fade" id="contact" role="dialogue">
-    <div class="modal-dialog">
-      <div class="modal-content">
         <form id="gform" class="form-horizontal" method="POST" action="https://script.google.com/macros/s/AKfycby40FziBl6jW44yXpjwbMMPTl3pgEcVASRExwGgOhCbl7Vrr68/exec">
 
-          <div class="modal-header">
-            <h4>Contact RE Ledger</h4>
-          </div>
+		<fieldset class="pure-group">
 
-          <div class="modal-body">
-
-
-
-            <fieldset class="form-group">
-              <label for="name" class="col-lg-2 control-label">Name: </label>
-              <div class="col-lg-10">
-              <input type="text" class="form-control" id="name" name="name" placeholder="Please put your full name" />
-            </fieldset>
-
-            <fieldset class="form-group">
-              <label for="email" class="col-lg-2 control-label">Email: </label>
-              <div class="col-lg-10">
-              <input type="email" class="form-control" id="email" name="email" value="" required placeholder="email@siteexample.com"/>
-            </fieldset>
-
-            <fieldset class="form-group">
-              <label for="message" class="col-lg-2 control-label">Message: </label>
-              <div class="col-lg-10">
-              <textarea type= "text" id="message" name="message" rows="8" class="form-control"></textarea>
-            </fieldset>
-
-            <div class="modal-footer">
-              <a href="#index" class="btn btn-default" data-dismiss="modal">Close it</a>
-              <button class="btn btn-primary" type="submit"> Submit</button>
-            </div>
-
-
-          </div>
-        </form>
-        <!-- Customise the Thankyou Message People See when they submit the form: -->
-
-        <div style="display:none;" id="thankyou_message">
-          <h2 class='col-lg-10 model_message'>  Thanks for your message - We will get back to you soon</h2>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-</div><!-- /.container -->
-
-<!-- Included so that when you complete a contact request you get a message -->
-<script data-cfasync="false" type="text/javascript"
-src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+			<p> <label for="name">Your Name: </label>
+			 <input id="name" name="name" placeholder="John Doe" /></p>
+			
+			<p> <label for="email">Your Email: </label>
+			 <input id="email" name="email" placeholder="johndoe123@gmail.com" /></p>
+			
+			<p> <label for="message">Your Message: </label>
+			 <input id="message" name="message" placeholder="Your message Here." /></p>
+			<p><input type="submit" value="Submit"></p>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	</fieldset>
 
 </div>
   </div>
