@@ -39,6 +39,10 @@
 	background-color: #eee2dc;
 	padding: 60px;
 	}
+
+	#tweetDiv {
+	text-align: center;
+	}
 	
 	body { 
 	background-color: #eee2dc;  	
@@ -78,7 +82,7 @@
 	.button4:hover {
 	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	}
-
+	
 	.footer {
    	position: fixed;
    	left: 0;
@@ -137,24 +141,42 @@
 
 <div class="sticky">
 <button class="button button1" id = "Home" onclick="changeContent(this.id)"><b>Home</b></button>
-<button class="button button2" id = "RÃ©sumÃ©" onclick="changeContent(this.id)"><b>R&eacutesum&eacute</b></button>
+<button class="button button2" id = "Résumé" onclick="changeContent(this.id)"><b>R&eacutesum&eacute</b></button>
 <button class="button button3" id = "Currently" onclick="changeContent(this.id)"><b>Currently</b></button>
 <button class="button button4" id = "Thoughts" onclick="changeContent(this.id)"><b><u>Thoughts</u></b></button>
 </div>
 
 <h1>"It's pronounced suh - ree - nuh."</h1>
 	
-<h2>I'm 20 and overall trying to find my spot in the world.</h2>
+<h2>I'm 20, studying computer science, and overall trying to find my spot in the world.</h2>
 
 <div id="homeDiv">
-<h3 id = "head">Thoughts.</h3>
+<h3>Thoughts.</h3>
+<blockquote class="twitter-tweet tw-align-center">
+	<p lang="en" dir="ltr">How do we take back control when technology knows us better than we know ourselves? 
+	<a href="https://twitter.com/harari_yuval?ref_src=twsrc%5Etfw">@harari_yuval</a> 
+	talks about the incredible effect of taking time to unplug on this episode of 
+	<a href="https://twitter.com/hashtag/TheTEDInterview?src=hash&amp;ref_src=twsrc%5Etfw">#TheTEDInterview</a>. 
+	<br><br>Listen on <a href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw">@Spotify</a> or your favorite podcast platform: 
+	<a href="https://t.co/Tzp2ttucpN">https://t.co/Tzp2ttucpN</a> <a href="https://t.co/VEZhi1lFuv">pic.twitter.com/VEZhi1lFuv</a></p>&mdash; TED Talks (@TEDTalks) 
+	<a href="https://twitter.com/TEDTalks/status/1152185676563177472?ref_src=twsrc%5Etfw">July 19, 2019</a>
+	</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">I recently wrote about how people 
+	with tech skills can find fascinating problems to work on in global health and development. 
+	I was excited to come across this <a href="https://twitter.com/techreview?ref_src=twsrc%5Etfw">@techreview</a> 
+	article about African machine learning researchers who are already doing just that. 
+	<a href="https://t.co/3e1d2QvvH4">https://t.co/3e1d2QvvH4</a></p>&mdash; Bill Gates (@BillGates) 
+	<a href="https://twitter.com/BillGates/status/1150605518291001345?ref_src=twsrc%5Etfw">July 15, 2019</a></blockquote> 
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </div>
 
 <script>
 function changeContent(thisId) {
 	if(thisId.localeCompare("Home") == 0){
 		window.location.href = "index.html";
-	}else if(thisId.localeCompare("RÃ©sumÃ©") == 0){
+	}else if(thisId.localeCompare("Résumé") == 0){
 		window.location.href = "resume.html";
 	}else if(thisId.localeCompare("Currently") == 0){
 		window.location.href = "currently.html";
