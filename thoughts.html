@@ -39,6 +39,10 @@
 	background-color: #eee2dc;
 	padding: 60px;
 	}
+	
+	#tweetDiv {
+		z-index: 1;
+	}
 
 	
 	body { 
@@ -148,8 +152,8 @@
 <h2>I'm 20 and overall trying to find my spot in the world.</h2>
 
 <div id="homeDiv">
-<h3>Thoughts..</h3>
-<blockquote class="twitter-tweet tw-align-center" z-index: 1>
+<h3>Thoughts?</h3>
+<div id="tweetDiv><blockquote class="twitter-tweet tw-align-center" z-index: 1>
 	<p lang="en" dir="ltr">How do we take back control when technology knows us better than we know ourselves? 
 	<a href="https://twitter.com/harari_yuval?ref_src=twsrc%5Etfw">@harari_yuval</a> 
 	talks about the incredible effect of taking time to unplug on this episode of 
@@ -167,7 +171,7 @@
 	<a href="https://twitter.com/BillGates/status/1150605518291001345?ref_src=twsrc%5Etfw">July 15, 2019</a></blockquote> 
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
-
+										   </div>
 <script>
 function changeContent(thisId) {
 	if(thisId.localeCompare("Home") == 0){
