@@ -137,7 +137,7 @@
 
 <div class="sticky">
 <button class="button button1" id = "Home" onclick="changeContent(this.id)"><b>Home</b></button>
-<button class="button button2" id = "Résumé" onclick="changeContent(this.id)"><b><u>R&eacutesum&eacute</u></b></button>
+<button class="button button2" id = "RÃ©sumÃ©" onclick="changeContent(this.id)"><b><u>R&eacutesum&eacute</u></b></button>
 <button class="button button3" id = "Currently" onclick="changeContent(this.id)"><b>Currently</b></button>
 <button class="button button4" id = "Thoughts" onclick="changeContent(this.id)"><b>Thoughts</b></button>
 </div>
@@ -148,7 +148,7 @@
 
 <div id="homeDiv">
 <h3 id = "head">R&eacutesum&eacute</h3>
-<iframe src="Resume_5.23.19.pdf" width="100%" height="500px">
+<iframe src="Resume_5.23.19.pdf" width="100%" height="1500px">
     </iframe>
 </div>
 
@@ -156,7 +156,7 @@
 function changeContent(thisId) {
 	if(thisId.localeCompare("Home") == 0){
 		window.location.href = "index.html";
-	}else if(thisId.localeCompare("Résumé") == 0){
+	}else if(thisId.localeCompare("RÃ©sumÃ©") == 0){
 		window.location.href = "resume.html";
 	}else if(thisId.localeCompare("Currently") == 0){
 		window.location.href = "currently.html";
