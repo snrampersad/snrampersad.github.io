@@ -1,0 +1,40 @@
+Syntax for C:
+-- #include
+	-- <stdio.h> : always
+	-- <math.h> : to use the math class
+	-- <stdlib.h> : to use random
+	-- <time.h> : to use random
+-- ctrl + o : save
+-- ctrl + x : exit
+-- gcc -Wall amount.c : to complie
+-- gcc -std=c99 : to compile
+-- ./a.out : to run
+-- ctrl + c : exit from an infinite loop
+-- nano NameOfProgram.c : to create a file
+-- nano -c NameOfProgram.c : shows line numbers while editing
+-- vi NameOfProgram.c : to create a file
+	~ Type ":" first
+	-- i : insert/edit
+	-- ESC : escape mode
+	-- q! : quit without save
+	-- w : quit
+	-- wq: quit
+-- escape sequences : \n, \t
+-- pointers :
+	-- "*" : the value at
+	-- "&" : the address of
+
+Error Messages:
+--"invalid lvalue in assignment": the left hand side of assignment must be a variable
+
+File I/O:
+-- FILE *pFile;
+-- open file : fopen("fileName.txt", "r");
+	-- "r" : reading a file
+	-- "w" : writing a file
+	-- "a" : appending a file
+-- NULL (pointer)
+	-- if(*pFile == NULL) {
+		return 1;
+	}
+
